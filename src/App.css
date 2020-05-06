@@ -3,23 +3,16 @@
 }
 
 .App-logo {
-<<<<<<< HEAD
-=======
-  animation: App-logo-spin infinite 20s linear;
->>>>>>> 3df5e23a2f1358f80b2100189431245601600b31
   height: 40vmin;
   pointer-events: none;
 }
 
-<<<<<<< HEAD
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-=======
->>>>>>> 3df5e23a2f1358f80b2100189431245601600b31
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
