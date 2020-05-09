@@ -57,7 +57,7 @@ const HomepageHeading = ({ mobile }) => (
               fontSize: mobile ? '2em' : '4em',
               fontWeight: 'normal',
               marginTop: mobile ? '1.5em' : '3em',
-            }}/>
+            }} centered/>
         </Grid.Column>
 
         <Grid.Column width={10}>
@@ -228,7 +228,7 @@ const HomepageLayout = () => (
             </p>
           </Grid.Column>
           <Grid.Column floated='right' width={6}>
-            <Image bordered rounded size='large' src={aidAssistHome} />
+            <Image bordered rounded size='large' src={aidAssistHome} centered />
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
