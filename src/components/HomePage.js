@@ -15,6 +15,24 @@ import {
   Sidebar,
   Visibility,
 } from 'semantic-ui-react'
+import aidAssistHome from '../assets/aid-assist-home.png';
+import aidAssistKE from '../assets/aid-assist-ke.png';
+import explainWhy from '../assets/explain-why.png';
+import auPayrollCalc from '../assets/au-payroll-calc.png';
+import keOnboarding from '../assets/ke-onboarding-tiles.png';
+import kePayrollOT from '../assets/ke-payroll-ot.png';
+import franceFTU from '../assets/france-ftu.jpg';
+import playerOneSoccer from '../assets/player-one-soccer.png';
+import profilePic from '../assets/profile-pic.jpeg';
+import bharathApr25 from '../assets/bharath-april25.jpg';
+import kevinApr15 from '../assets/kevin-april15.jpg';
+import gowriFeb from '../assets/gowri-feb.jpg';
+import kevinMarch29 from '../assets/kevin-march29.jpg';
+import yiApril from '../assets/yi-april.jpg';
+import saikatNov from '../assets/saikat-nov.jpg';
+import gangSep from '../assets/gang-sep.jpg';
+import scottSep from '../assets/scott-sep.jpg';
+import iramOct from '../assets/iram-oct.jpg';
 
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
@@ -30,28 +48,39 @@ const getWidth = () => {
  * such things.
  */
 const HomepageHeading = ({ mobile }) => (
-  <Container text>
-    <Header
-      as='h1'
-      content="Hey there! I'm a UI Engineer based in the SF Bay Area"
-      inverted
-      style={{
-        fontSize: mobile ? '2em' : '4em',
-        fontWeight: 'normal',
-        marginBottom: 0,
-        marginTop: mobile ? '1.5em' : '3em',
-      }}
-    />
-    <Header
-      as='h2'
-      content=""
-      inverted
-      style={{
-        fontSize: mobile ? '1.5em' : '1.7em',
-        fontWeight: 'normal',
-        marginTop: mobile ? '0.5em' : '1.5em',
-      }}
-    />
+  <Container>
+  
+    <Grid inverted stackable>
+      <Grid.Row>
+        <Grid.Column width={3}>
+          <Image bordered circular size='medium' src={profilePic} style={{
+              fontSize: mobile ? '2em' : '4em',
+              fontWeight: 'normal',
+              marginTop: mobile ? '1.5em' : '3em',
+            }}/>
+        </Grid.Column>
+
+        <Grid.Column width={10}>
+        <Header
+            as='h1'
+            content="Hey there!"
+            inverted
+            style={{
+              fontSize: mobile ? '2em' : '4em',
+              fontWeight: 'normal',
+              marginTop: mobile ? '1.5em' : '3em',
+            }}/>
+          <p style={{ fontSize: '1.33em' }}>
+            I'm Regina Garcia. I'm a software engineer living in Cupertino, CA. I am currently at Intuit and have worked at various companies in the Bay Area
+            including Paypal, vArmour and VMware. I have built several projects in JavaScript,
+            NodeJS, ReactJS, CSS and HTML.
+          </p>
+          <p style={{ fontSize: '1.33em' }}>
+            Feel free to drop me a <a href="mailto:mariaregina.garcia@gmail.com">note</a>. You can also connect with me on <a href="https://www.linkedin.com/in/regina-garcia/" target="_blank" rel="noopener noreferrer">LinkedIn</a> 
+          </p>
+        </Grid.Column>
+      </Grid.Row>
+    </Grid>
   </Container>
 )
 
@@ -191,49 +220,141 @@ const HomepageLayout = () => (
         <Grid.Row>
           <Grid.Column width={8}>
             <Header as='h3' style={{ fontSize: '2em' }}>
-              My work experience
+              Intuit Aid Assist
             </Header>
             <p style={{ fontSize: '1.33em' }}>
-              We can give your company superpowers to do things that they never thought possible.
-              Let us delight your customers and empower your needs... through pure data analytics.
-            </p>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-              We Make Bananas That Can Dance
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-              Yes that's right, you thought it was the stuff of dreams, but even bananas can be
-              bioengineered.
+              Intuit Aid Assist is a free service that aims to help small business owners who have been 
+              adversely impacted by the COVID-19 crisis.
             </p>
           </Grid.Column>
           <Grid.Column floated='right' width={6}>
-            <Image bordered rounded size='large' src='/images/wireframe/white-image.png' />
+            <Image bordered rounded size='large' src={aidAssistHome} />
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
-          <Grid.Column textAlign='center'>
-            <Button size='huge'>Check Them Out</Button>
+          <Grid.Column width={8}>
+            <Header as='h3' style={{ fontSize: '2em' }}>
+              Explain Why 
+            </Header>
+            <p style={{ fontSize: '1.33em' }}>
+              ExplainWhy describes how an outcome is calculated. It allows users to drill down
+              information by traversing nodes from a Knowledge Graph. 
+            </p>
+          </Grid.Column>
+          <Grid.Column floated='right' width={6}>
+            <Image bordered rounded size='large' src={explainWhy} />
           </Grid.Column>
         </Grid.Row>
+        <Grid.Row>
+          <Grid.Column width={8}>
+            <Header as='h3' style={{ fontSize: '2em' }}>
+              QuickBooks Payments Onboarding
+            </Header>
+            <p style={{ fontSize: '1.33em' }}>
+              Payments Onboarding requires users to enter a significant amount of information in order to submit an application. 
+              With data extraction, the user experience became leaner and less tedious, reducing onboarding time into just a few steps.
+            </p>
+          </Grid.Column>
+          <Grid.Column floated='right' width={6}>
+            <Image bordered rounded size='large' src={keOnboarding} />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column width={8}>
+            <Header as='h3' style={{ fontSize: '2em' }}>
+              QuickBooks Payroll Overtime Exemption
+            </Header>
+            <p style={{ fontSize: '1.33em' }}>
+              Labor laws are complicated. But with the Overtime Exemption flow, users are able to navigate these complex rules in
+              order to determine whether or not their employees are eligible for overtime pay.
+            </p>
+          </Grid.Column>
+          <Grid.Column floated='right' width={6}>
+            <Image bordered rounded size='large' src={kePayrollOT} />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column width={8}>
+            <Header as='h3' style={{ fontSize: '2em' }}>
+              QuickBooks Australia Payroll Calculator
+            </Header>
+            <p style={{ fontSize: '1.33em' }}>
+              This Payroll Calculator allows users to determine how their Paycheck is broken down. 
+            </p>
+          </Grid.Column>
+          <Grid.Column floated='right' width={6}>
+            <Image bordered rounded size='large' src={auPayrollCalc} />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column width={8}>
+            <Header as='h3' style={{ fontSize: '2em' }}>
+              QuickBooks France FTU
+            </Header>
+            <p style={{ fontSize: '1.33em' }}>
+              This First-Time-Use experience is powered by the Knowledge Engine, the same technology that runs
+              behind TurboTax. By delivering a more intelligent and personalized experience, conversion jumped up
+              from 34% to 87%. And reduced the amount of time to completion from 9 minutes to 2 minutes.
+            </p>
+          </Grid.Column>
+          <Grid.Column floated='right' width={6}>
+            <Image bordered rounded size='large' src={franceFTU} />
+          </Grid.Column>
+        </Grid.Row>
+        {/* <Grid.Row>
+          <Grid.Column width={8}>
+            <Header as='h3' style={{ fontSize: '2em' }}>
+              PlayerOne.Soccer
+            </Header>
+            <p style={{ fontSize: '1.33em' }}>
+              PlayerOne.Soccer is an online reservation system for private soccer trainings.
+            </p>
+          </Grid.Column>
+          <Grid.Column floated='right' width={6}>
+            <Image bordered rounded size='large' src={playerOneSoccer} />
+          </Grid.Column>
+        </Grid.Row> */}
       </Grid>
     </Segment>
 
-    <Segment style={{ padding: '0em' }} vertical>
+    <Segment vertical>
+      <Header as='h3' style={{ fontSize: '2em' }}>
+        Spotlights
+      </Header>
       <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-              "What a Company"
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>That is what they all say about us</p>
+            <Image bordered rounded size='medium' src={bharathApr25} centered />
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-              "I shouldn't have gone with their competitor."
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-              <Image avatar src='/images/avatar/large/nan.jpg' />
-              <b>Nan</b> Chief Fun Officer Acme Toys
-            </p>
+            <Image bordered rounded size='medium' src={yiApril} centered/>
+          </Grid.Column>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+              <Image bordered rounded size='medium' src={kevinApr15} centered/>
+          </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+            <Image bordered rounded size='medium' src={gowriFeb} centered />
+          </Grid.Column>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+            <Image bordered rounded size='medium' src={saikatNov}centered />
+          </Grid.Column>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+              <Image bordered rounded size='medium' src={kevinMarch29} centered/>
+          </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+            <Image bordered rounded size='medium' src={gangSep} centered />
+          </Grid.Column>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+            <Image bordered rounded size='medium' src={scottSep}centered />
+          </Grid.Column>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+              <Image bordered rounded size='medium' src={iramOct} centered/>
           </Grid.Column>
         </Grid.Row>
       </Grid>
@@ -242,16 +363,11 @@ const HomepageLayout = () => (
     <Segment style={{ padding: '8em 0em' }} vertical>
       <Container text>
         <Header as='h3' style={{ fontSize: '2em' }}>
-          Breaking The Grid, Grabs Your Attention
+          Geek Girl Dinner 2019
         </Header>
         <p style={{ fontSize: '1.33em' }}>
-          Instead of focusing on content creation and hard work, we have learned how to master the
-          art of doing nothing by providing massive amounts of whitespace and generic content that
-          can seem massive, monolithic and worth your attention.
+          Presenter
         </p>
-        <Button as='a' size='large'>
-          Read More
-        </Button>
 
         <Divider
           as='h4'
@@ -259,20 +375,32 @@ const HomepageLayout = () => (
           horizontal
           style={{ margin: '3em 0em', textTransform: 'uppercase' }}
         >
-          <a href='#'>Case Studies</a>
+          {/* <a href='#'>Case Studies</a> */}
         </Divider>
 
         <Header as='h3' style={{ fontSize: '2em' }}>
-          Did We Tell You About Our Bananas?
+          Intuit Tech Con 2019
         </Header>
         <p style={{ fontSize: '1.33em' }}>
-          Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but
-          it's really true. It took years of gene splicing and combinatory DNA research, but our
-          bananas can really dance.
+          Presenter
         </p>
-        <Button as='a' size='large'>
+        <Divider
+          as='h4'
+          className='header'
+          horizontal
+          style={{ margin: '3em 0em', textTransform: 'uppercase' }}
+        >
+          {/* <a href='#'>Case Studies</a> */}
+        </Divider>
+        <Header as='h3' style={{ fontSize: '2em' }}>
+          Intuit Supercharge 2019
+        </Header>
+        <p style={{ fontSize: '1.33em' }}>
+          Presenter
+        </p>
+        {/* <Button as='a' size='large'>
           I'm Still Quite Interested
-        </Button>
+        </Button> */}
       </Container>
     </Segment>
 
@@ -281,30 +409,22 @@ const HomepageLayout = () => (
         <Grid divided inverted stackable>
           <Grid.Row>
             <Grid.Column width={3}>
-              <Header inverted as='h4' content='About' />
+            </Grid.Column>
+
+            <Grid.Column width={9}>
+              {/* <Header inverted as='h4' content='About' />
               <List link inverted>
                 <List.Item as='a'>Sitemap</List.Item>
                 <List.Item as='a'>Contact Us</List.Item>
                 <List.Item as='a'>Religious Ceremonies</List.Item>
                 <List.Item as='a'>Gazebo Plans</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={3}>
-              <Header inverted as='h4' content='Services' />
-              <List link inverted>
-                <List.Item as='a'>Banana Pre-Order</List.Item>
-                <List.Item as='a'>DNA FAQ</List.Item>
-                <List.Item as='a'>How To Access</List.Item>
-                <List.Item as='a'>Favorite X-Men</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={7}>
-              <Header as='h4' inverted>
+              </List> */}
+              {/* <Header as='h4' inverted>
                 Footer Header
               </Header>
               <p>
                 Extra space for a call to action inside the footer that could help re-engage users.
-              </p>
+              </p> */}
             </Grid.Column>
           </Grid.Row>
         </Grid>
