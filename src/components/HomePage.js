@@ -324,37 +324,37 @@ const HomepageLayout = () => (
       <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Image bordered rounded size='medium' src={bharathApr25} centered />
+            <Image bordered rounded size='large' src={bharathApr25} centered />
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Image bordered rounded size='medium' src={yiApril} centered/>
+            <Image bordered rounded size='large' src={yiApril} centered/>
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Image bordered rounded size='medium' src={kevinApr15} centered/>
-          </Grid.Column>
-        </Grid.Row>
-
-        <Grid.Row textAlign='center'>
-          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Image bordered rounded size='medium' src={gowriFeb} centered />
-          </Grid.Column>
-          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Image bordered rounded size='medium' src={saikatNov}centered />
-          </Grid.Column>
-          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Image bordered rounded size='medium' src={kevinMarch29} centered/>
+              <Image bordered rounded size='large' src={kevinApr15} centered/>
           </Grid.Column>
         </Grid.Row>
 
         <Grid.Row textAlign='center'>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Image bordered rounded size='medium' src={gangSep} centered />
+            <Image bordered rounded size='large' src={gowriFeb} centered />
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-            <Image bordered rounded size='medium' src={scottSep}centered />
+            <Image bordered rounded size='large' src={saikatNov}centered />
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Image bordered rounded size='medium' src={iramOct} centered/>
+              <Image bordered rounded size='large' src={kevinMarch29} centered/>
+          </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+            <Image bordered rounded size='large' src={gangSep} centered />
+          </Grid.Column>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+            <Image bordered rounded size='large' src={scottSep}centered />
+          </Grid.Column>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+              <Image bordered rounded size='large' src={iramOct} centered/>
           </Grid.Column>
         </Grid.Row>
       </Grid>
