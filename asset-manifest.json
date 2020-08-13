@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/home/static/css/main.d1b05096.chunk.css",
-    "main.js": "/home/static/js/main.1092dffb.chunk.js",
-    "main.js.map": "/home/static/js/main.1092dffb.chunk.js.map",
+    "main.js": "/home/static/js/main.aa957c6b.chunk.js",
+    "main.js.map": "/home/static/js/main.aa957c6b.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.70b934b8.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.70b934b8.js.map",
-    "static/js/2.dc18c321.chunk.js": "/home/static/js/2.dc18c321.chunk.js",
-    "static/js/2.dc18c321.chunk.js.map": "/home/static/js/2.dc18c321.chunk.js.map",
+    "static/js/2.4c15aa1c.chunk.js": "/home/static/js/2.4c15aa1c.chunk.js",
+    "static/js/2.4c15aa1c.chunk.js.map": "/home/static/js/2.4c15aa1c.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.1790fa73de3f517644cbb76efb12e4de.js": "/home/precache-manifest.1790fa73de3f517644cbb76efb12e4de.js",
+    "precache-manifest.6313f7e78260e7c0ca64480d7ebb014e.js": "/home/precache-manifest.6313f7e78260e7c0ca64480d7ebb014e.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/home/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.dc18c321.chunk.js.LICENSE.txt": "/home/static/js/2.dc18c321.chunk.js.LICENSE.txt",
+    "static/js/2.4c15aa1c.chunk.js.LICENSE.txt": "/home/static/js/2.4c15aa1c.chunk.js.LICENSE.txt",
     "static/media/aid-assist-home.png": "/home/static/media/aid-assist-home.1490d1c5.png",
     "static/media/aid-assist-ke.png": "/home/static/media/aid-assist-ke.d2c179c4.png",
     "static/media/au-payroll-calc.png": "/home/static/media/au-payroll-calc.b3c65510.png",
@@ -25,6 +25,7 @@
     "static/media/ke-payroll-ot.png": "/home/static/media/ke-payroll-ot.a858386f.png",
     "static/media/kevin-april15.jpg": "/home/static/media/kevin-april15.b39f2551.jpg",
     "static/media/kevin-march29.jpg": "/home/static/media/kevin-march29.5b76d6eb.jpg",
+    "static/media/krish-payments.png": "/home/static/media/krish-payments.4431ab87.png",
     "static/media/player-one-soccer.png": "/home/static/media/player-one-soccer.260dcd1c.png",
     "static/media/saikat-nov.jpg": "/home/static/media/saikat-nov.9dfafdc1.jpg",
     "static/media/scott-sep.jpg": "/home/static/media/scott-sep.13e9dd4a.jpg",
@@ -32,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.70b934b8.js",
-    "static/js/2.dc18c321.chunk.js",
+    "static/js/2.4c15aa1c.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.1092dffb.chunk.js"
+    "static/js/main.aa957c6b.chunk.js"
   ]
 }
