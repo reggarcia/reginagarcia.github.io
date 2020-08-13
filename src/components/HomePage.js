@@ -33,6 +33,7 @@ import saikatNov from '../assets/saikat-nov.jpg';
 import gangSep from '../assets/gang-sep.jpg';
 import scottSep from '../assets/scott-sep.jpg';
 import iramOct from '../assets/iram-oct.jpg';
+import krishPayments from '../assets/krish-payments.png';
 
 // Heads up!
 // We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
@@ -301,19 +302,6 @@ const HomepageLayout = () => (
             <Image bordered rounded size='large' src={franceFTU} />
           </Grid.Column>
         </Grid.Row>
-        {/* <Grid.Row>
-          <Grid.Column width={8}>
-            <Header as='h3' style={{ fontSize: '2em' }}>
-              PlayerOne.Soccer
-            </Header>
-            <p style={{ fontSize: '1.33em' }}>
-              PlayerOne.Soccer is an online reservation system for private soccer trainings.
-            </p>
-          </Grid.Column>
-          <Grid.Column floated='right' width={6}>
-            <Image bordered rounded size='large' src={playerOneSoccer} />
-          </Grid.Column>
-        </Grid.Row> */}
       </Grid>
     </Segment>
 
@@ -324,35 +312,42 @@ const HomepageLayout = () => (
       <Grid celled='internally' columns='equal' stackable>
         <Grid.Row textAlign='center'>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+            <Image bordered rounded size='large' src={krishPayments} centered />
+          </Grid.Column>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <Image bordered rounded size='large' src={bharathApr25} centered />
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <Image bordered rounded size='large' src={yiApril} centered/>
           </Grid.Column>
-          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Image bordered rounded size='large' src={kevinApr15} centered/>
-          </Grid.Column>
+
         </Grid.Row>
 
         <Grid.Row textAlign='center'>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+              <Image bordered rounded size='large' src={kevinApr15} centered/>
+          </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <Image bordered rounded size='large' src={gowriFeb} centered />
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <Image bordered rounded size='large' src={saikatNov}centered />
           </Grid.Column>
-          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
-              <Image bordered rounded size='large' src={kevinMarch29} centered/>
-          </Grid.Column>
         </Grid.Row>
 
         <Grid.Row textAlign='center'>
+          <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
+              <Image bordered rounded size='large' src={kevinMarch29} centered/>
+          </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <Image bordered rounded size='large' src={gangSep} centered />
           </Grid.Column>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
             <Image bordered rounded size='large' src={scottSep}centered />
           </Grid.Column>
+        </Grid.Row>
+
+        <Grid.Row textAlign='center'>
           <Grid.Column style={{ paddingBottom: '5em', paddingTop: '5em' }}>
               <Image bordered rounded size='large' src={iramOct} centered/>
           </Grid.Column>
